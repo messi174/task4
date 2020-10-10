@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		@keyframes loading {
+			0%{background-position:0 0;}
+			100%{background-position: -800px 0;}
+		}
+		.a{
+			height:100px;
+			width: 100px;
+			background:url('imgs/loading.png')right no-repeat;
+			animation: loading 1s steps(8) infinite;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="a"></div>
+</body>
+</html>
